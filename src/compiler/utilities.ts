@@ -6982,6 +6982,7 @@ namespace ts {
             case Extension.Mts:
                 return ScriptKind.TS;
             case Extension.Tsx:
+            case Extension.Vue:
                 return ScriptKind.TSX;
             case Extension.Json:
                 return ScriptKind.JSON;

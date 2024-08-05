@@ -7134,6 +7134,7 @@ namespace ts {
     export const enum Extension {
         Ts = ".ts",
         Tsx = ".tsx",
+        Vue = ".vue",
         Dts = ".d.ts",
         Js = ".js",
         Jsx = ".jsx",

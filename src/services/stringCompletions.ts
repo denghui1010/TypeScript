@@ -135,6 +135,7 @@ namespace ts.Completions.StringCompletions {
             case Extension.Json: return ScriptElementKindModifier.jsonModifier;
             case Extension.Jsx: return ScriptElementKindModifier.jsxModifier;
             case Extension.Ts: return ScriptElementKindModifier.tsModifier;
+            case Extension.Vue: return ScriptElementKindModifier.tsxModifier;
             case Extension.Tsx: return ScriptElementKindModifier.tsxModifier;
             case Extension.Dmts: return ScriptElementKindModifier.dmtsModifier;
             case Extension.Mjs: return ScriptElementKindModifier.mjsModifier;
